@@ -1,0 +1,20 @@
+html{
+    margin-left: 20vw;
+    --prim-color: #90a3b3;
+    color: white;
+}
+
+button{
+    background: rgba(169, 169, 169, 0.082);
+    border-radius: 10px;
+    padding: 5px 20px;
+    color: rgba(255, 255, 255, 0.76);
+    font: normal 18px "Open Sans", sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+button :hover{
+    transition: all 0.3s;
+    background: rgba(169, 169, 169, 0);
+}

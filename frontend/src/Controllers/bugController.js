@@ -1,6 +1,6 @@
 import bugModel from '../Models/bugModel';
 
-export function retieveBugs(){
+export function retrieveBugs(){
     let data = [];
 
     data.push(new bugModel({
