@@ -3,8 +3,7 @@
     height: 105vh;
     background-color: rgb(30, 33, 71);
     background-size: cover;
-    margin-left: -20.6vw;
-    margin-top: -27px;
+    grid-column: 1/2;
     position: absolute;
 }
 
