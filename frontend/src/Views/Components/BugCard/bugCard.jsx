@@ -1,7 +1,7 @@
 import { produceWithPatches } from '@reduxjs/toolkit/node_modules/immer';
 import React from 'react';
 import './bugCard.css';
-import PriorityController from '../../Controllers/priorityController';  
+import PriorityController from '../../../Controllers/priorityController';  
 
 export default(props)=>{
 
