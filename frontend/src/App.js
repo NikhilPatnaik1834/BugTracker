@@ -4,6 +4,7 @@ import Login from './Views/Pages/Login/login';
 import {BrowserRouter as Router,Route,Routes} from 'react-router-dom';
 import Sidebar from './Views/Sidebar/sidebar';
 import ViewBugPage from './Views/Pages/viewBugs';
+import CreateBug from './Views/Components/BugCreateEdit/bugForm';
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Sidebar />
         <Routes>
           <Route path="/viewBugs" element={<ViewBugPage />}></Route>
+          <Route path="/createBugs" element={<div className='page-container'><CreateBug title="Create Bug"/></div>}></Route>
         </Routes>
         </>
         }
